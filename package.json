@@ -1,0 +1,36 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@datastructures-js/priority-queue": "^6.3.1",
+    "@ethersproject/abstract-provider": "^5.7.0",
+    "@google-cloud/kms": "^4.5.0",
+    "@safe-global/api-kit": "^2.4.3",
+    "@safe-global/protocol-kit": "^4.0.3",
+    "@safe-global/relay-kit": "^3.0.3",
+    "@safe-global/safe-core-sdk-types": "^5.0.3",
+    "@types/node": "^20.14.11",
+    "@upstash/qstash": "^2.6.1",
+    "add": "^2.0.6",
+    "alchemy-sdk": "^3.3.1",
+    "aws-sdk": "^2.1658.0",
+    "bull": "^4.15.1",
+    "bullmq": "^5.8.6",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "stripe": "^16.2.0"
+  }
+}
